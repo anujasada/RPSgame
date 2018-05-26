@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.aside {
+    background-color: #e8efff;
+    padding: 30px;
+    height: 660px;
+    text-align: center;
+    color: rgb(135, 135, 211);
+    box-shadow: 0 4px 8px 0 rgb(135, 135, 211);
+    font-family: 'Raleway', sans-serif;
+}
+
+.aside li {
+    list-style: none;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.header {
+    background-color: rgb(188, 188, 229);
+    padding: 10px;
+    color: #f2f4f8;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0px;
+    margin-left: -15px;
+    width: 102%;
+    
+}
+
+.card {
+    text-align: justify;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #607eb1;
+    font-family: 'PT Serif', serif;
+}
+
+.card h1 {
+    text-align: center;
+}

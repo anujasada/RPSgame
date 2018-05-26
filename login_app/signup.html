@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Raleway|Ubuntu" rel="stylesheet"> 
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
+</head>
+<body>
+<h1 class="head">Signup Here!!</h1>
+<div class="row">
+    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 main">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 signup">
+                <label class="lab">Email</label>
+                <input class="inpt" type="text" id="em">
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 signup">
+                    <label class="lab">Password</label>
+                    <input class="inpt" type="password" id="ps">
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 signup">
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1 col-sm-1 col-lg-1">
+                            <label class="container">
+                                <input type="checkbox" onclick="hide_fun()">
+                                <span class="checkmark"></span>
+                            </label> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-11 col-xs-11 col-sm-11 col-lg-11 pass">
+                            Show password
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 signup">
+                    <p onclick="validate()" class="main-btn">Signup</p> 
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 login">
+                    <p>Already have an account??  <a href="login.html">Login</a></p>
+                </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
